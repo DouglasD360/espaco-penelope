@@ -156,7 +156,7 @@
         width: 100%;
     }
     .navigation .navbar-collapse {
-        background: #393939;
+        background: #6d6d6d;
         padding: 20px;
         margin-top: 56px;
         position: absolute;
@@ -253,6 +253,7 @@
     }
     .slin2::before {
         left: 0%;
+        bottom: 0%;
         max-width: 305px;
     }
     .variat {
@@ -265,9 +266,9 @@
         width: 100%;
     }
     .navigation .navbar-collapse {
-        background: #393939;
+        background: #6d6d6d;
         padding: 20px;
-        margin-top: 24px;
+        margin-top: 20px;
         position: absolute;
         width: 100%;
         margin-right: 20px;
@@ -280,7 +281,7 @@
     .navigation.navbar-dark .navbar-toggler {
         float: right;
         border: inherit;
-        margin-top: -42px;
+        margin-top: -58px;
     }
     .navigation.navbar-dark .navbar-nav .nav-link:focus,
     .navigation.navbar-dark .navbar-nav .nav-link:hover {

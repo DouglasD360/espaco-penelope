@@ -256,6 +256,12 @@
         bottom: 0%;
         max-width: 305px;
     }
+
+    .slin::before {
+        left: 8%;
+        bottom: 0%;
+        max-width: 305px;
+    }
     .variat {
         padding-bottom: 20px;
     }

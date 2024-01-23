@@ -34,6 +34,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Site Espaço Penélope é um projeto dedicado a Jamile Penelope, um site profissional e responsivo, com todas as informações e serviços que o Espaço oferece, de uma forma simples e objetiva.
 
+Para acessecar o site --> https://douglasd360.github.io/espaco-penelope/
 
 ## 🔖 Layout
 

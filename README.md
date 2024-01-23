@@ -18,7 +18,7 @@ Evento exclusivo e dedicado para Jamile Penélope!
 <br>
 
 <p align="center">
-  <img alt="Espaco Penelope" src=".espaco-penelope/espacopenelope-foto.jpg" width="100%">
+  <img alt="Espaco Penelope" src="./espacopenelope-foto.jpg" width="100%">
 </p>
 
 ## 🚀 Tecnologias

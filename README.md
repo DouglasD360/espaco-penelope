@@ -32,7 +32,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-O Site Espaço Penélope é um projeto que mostra os serviços da profissional Penélope
+O Site Espaço Penélope é um projeto dedicado a Jamile Penelope, um site profissional e responsivo, com todas as informações e serviços que o Espaço oferece, de uma forma simples e objetiva.
 
 
 ## 🔖 Layout

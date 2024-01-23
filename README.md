@@ -37,7 +37,7 @@ O Site Espaço Penélope é um projeto dedicado a Jamile Penelope, um site profi
 
 ## 🔖 Layout
 
-O Layout foi criado a partir de idéias, através de estudos!
+O Layout foi criado a partir de idéias e inspirações de grandes nomes da beleza!
 
 ## :memo: Licença
 

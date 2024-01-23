@@ -37,7 +37,7 @@ O Site Espaço Penélope é um projeto que mostra os serviços da profissional P
 
 ## 🔖 Layout
 
-O Layout foi criado a partir de idéias através de estudos!
+O Layout foi criado a partir de idéias, através de estudos!
 
 ## :memo: Licença
 

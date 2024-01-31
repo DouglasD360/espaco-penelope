@@ -228,6 +228,7 @@ button {
 /*---------------------------- preloader area ----------------------------*/
 
 .loader_bg {
+     
      position: fixed;
      z-index: 9999999;
      background: #ffffff;
@@ -236,6 +237,7 @@ button {
 }
 
 .loader {
+
      height: 100%;
      width: 100%;
      position: absolute;
@@ -353,7 +355,7 @@ ul.social_icon li a:hover {
 
 .banner1 {
      position: relative;
-     padding: 25px 0 50px 0;
+     padding: 50px 0 50px 0;
 }
 
 .relative {
@@ -729,9 +731,10 @@ ul.social_icon li a:hover {
 .servicos_box{
 
      padding-top: 15px;
-     padding-bottom: 30px;
+     padding-bottom: 10px;
      text-align: justify;
      align-items: center;
+     
 }
 
 .servicos_box h1{
@@ -753,6 +756,7 @@ ul.social_icon li a:hover {
      padding-bottom: 12px;
      text-transform:uppercase;
      font-weight:bolder;
+     
     
    
 }
@@ -779,7 +783,7 @@ ul.social_icon li a:hover {
 .we_do {
      padding-top: 50px;
      padding-bottom: 147px;
-     background: rgb(255,255,255);
+     background: #FFF;
      position: relative;
 }
 
@@ -789,7 +793,7 @@ ul.social_icon li a:hover {
      bottom: 3%;
      background: url(../images/slin.png);
      background-repeat: no-repeat;
-     max-width: 820px;
+     max-width: 830px;
      height: 147px;
      right: 15%;
      width: 100%;
@@ -1052,7 +1056,7 @@ ul.social_icon li a:hover {
 /** footer **/
 
 .footer {
-     background: #EBB8D7;
+     background: #ffdbf1;
      padding-top: 60px;
      text-align: center;
 }
@@ -1061,17 +1065,16 @@ ul.social_icon li a:hover {
      font-weight: 600;
      font-size: 17px;
      line-height: 19px;
-     text-align: left;
+     text-align: center;
      color: #420809;
      padding-bottom: 15px;
-     display: table;
      text-transform: uppercase;
 }
 
 .variat {
-     color: #757575;
-     text-align: left;
-     padding-right: 40px;
+     color: #000000;
+     text-align: justify;
+     
 }
 
 ul.conta {
@@ -1176,4 +1179,9 @@ ul.link_menu li a:hover {
 
 .margin_0 {
      margin: 0 !important;
+}
+
+.efeito-img-banner, .efeito-txt, .titlepage, .efeito-webox1, .efeito-webox2, .efeito-webox3, .servicos_right, .servicos_left, .experts_box{
+
+     visibility: hidden;
 }

@@ -3,7 +3,7 @@
 
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
-@media (min-width: 1200px) and (max-width: 1525px) {
+@media (min-width: 1200px) and (max-width: 1800px) {
     ul.social_icon li a {
         margin: 0 1px;
     }
@@ -244,7 +244,7 @@
         height: 417px;
     }
     .relative span {
-        padding-top: 30px;
+        padding-top: 100px;
         display: block;
     }
     .relative h1 {
@@ -258,7 +258,7 @@
         padding-bottom: 90px;
     }
     .banner1 {
-        padding: 50px 0 0px 0;
+        padding: 45px 0 0px 0;
     }
     .about .titlepage {
         max-width: inherit;
@@ -280,7 +280,7 @@
         margin-bottom: 20px;
     }
     .slin2::before {
-        left: 0%;
+        left: 8%;
         bottom: 0%;
         max-width: 305px;
     }
@@ -289,6 +289,11 @@
         left: 8%;
         bottom: 0%;
         max-width: 305px;
+    }
+
+    .servicos_box{
+
+        flex-direction:column-reverse;
     }
 
     

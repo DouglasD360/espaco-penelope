@@ -13,11 +13,13 @@
        
       <!-- Bootstrap CSS -->
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+      
       <!-- style css -->
-
       <link rel="stylesheet" href="css/style.css">
+      <script src="https://unpkg.com/scrollreveal"></script>
+      <script src="./js/reveal.js" defer></script>
+      
       <!-- Responsive-->
-
       <link rel="stylesheet" href="css/responsive.css">
                 
       <!-- Scrollbar Custom CSS -->
@@ -35,11 +37,7 @@
    </head>
    <!-- body -->
    <body class="main-layout">
-      <!-- loader  -->
-      <div class="loader_bg">
-         <div class="loader"><img src="images/loading3.gif" alt="#"/></div>
-      </div>
-      <!-- end loader -->
+
       <!-- header -->
       <header>
          <!-- header inner -->
@@ -115,7 +113,7 @@
                </div>
                
                <div class="col-md-6">
-                  <div class="titlepage">
+                  <div>
                      <iframe width="350" height="350" src="https://www.youtube.com/embed/TVGbXs373UE" title="Bem vindo ao Espaço Penélope" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                   </div>
                </div>
@@ -124,80 +122,84 @@
       </div>
       <!-- end salão -->
      
-      <!-- footer -->
-      <footer>
-         <div class="footer">
+     <!-- footer -->
+     <footer>
+      <div class="footer">
+         <div class="container">
+            <div class="row">
+               <div class=" col-md-3 col-sm-3">
+                  <img class="img-fluid" src="./images/logo.png">
+                  
+               </div>
+               <div class=" col-md-3 col-sm-3">
+                  <h3>Sobre nós</h3>
+                  <p class="variat">Trabalhamos com os melhores produtos do mercado para que você fique linda com unhas e cílios perfeitos, resistentes e com segurança.</p>
+                  
+               </div>
+               <div class=" col-md-3 col-sm-3">
+                  <h3>Salão</h3>
+                  <p class="variat">O seu refúgio de beleza e bem-estar! Aqui, no coração da cidade</p>
+               </div>
+               <div class="col-md-3 col-sm-3">
+                  <ul class="link_menu">
+                     <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="we-do.html" role="button" aria-haspopup="true" aria-expanded="false">Serviços</a>
+                        <div class="dropdown-menu">
+                          <a class="dropdown-item" href="servicos_alongamento.html">Alongamento de Unhas</a>
+                          <a class="dropdown-item" href="servicos_cilios.html">Extensão de Cílios</a>
+                          <a class="dropdown-item" href="servicos_Spa dos Pés.html">Spa dos Pés</a>
+                                                            
+                        </div>
+                      </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre</a>
+                        
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="salao.html">Salão</a>
+                     </li>
+                     <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contato</a>
+                     </li>
+                  </ul>
+               </div>
+               <div class="col-md-12 col-sm-12 pt-4">
+                  <ul class="conta">
+                     <li><a href="https://www.facebook.com/Unhaseciliospenelope/"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
+                     <li><a href="https://wa.me/message/EQXKWAMWRT6FB1"><i class="fa-brands fa-whatsapp"></i></i>Whatsapp</a></li>
+                     <li><a href="https://www.instagram.com/espaco.penelope/"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
+                     <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="#">penelopeunhasecilios@gmail.com</a></li>
+                  </ul>
+               </div>
+             </div>
+         </div>
+         <div class="copyright">
             <div class="container">
                <div class="row">
-                  <div class=" col-md-3 col-sm-3">
-                     <img class="img-fluid" src="./images/logo.png">
-                     
-                  </div>
-                  <div class=" col-md-3 col-sm-3">
-                     <h3>Sobre nós</h3>
-                     <p class="variat">Trabalhamos com os melhores produtos do mercado para que você fique linda com unhas e cílios perfeitos, resistentes e com segurança.</p>
-                     
-                  </div>
-                  <div class=" col-md-3 col-sm-3">
-                     <h3>Salão</h3>
-                     <p class="variat" >O seu refúgio de beleza e bem-estar! Aqui, no coração da cidade</p>
-                  </div>
-                  <div class="col-md-3 col-sm-3">
-                     <ul class="link_menu">
-                        <li class="nav-item active">
-                           <a class="nav-link" href="index.html">Home</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="we-do.html" role="button" aria-haspopup="true" aria-expanded="false">Serviços</a>
-                           <div class="dropdown-menu">
-                             <a class="dropdown-item" href="servicos_alongamento.html">Alongamento de Unhas</a>
-                             <a class="dropdown-item" href="servicos_cilios.html">Extensão de Cílios</a>
-                             <a class="dropdown-item" href="servicos_Spa dos Pés.html">Spa dos Pés</a>
-                                                               
-                           </div>
-                         </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="about.html">Sobre</a>
-                           
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="salao.html">Salão</a>
-                        </li>
-                        <li class="nav-item">
-                           <a class="nav-link" href="contact.html">Contato</a>
-                        </li>
-                     </ul>
-                  </div>
-                  <div class="col-md-12 col-sm-12 pt-4">
-                     <ul class="conta">
-                        <li><a href="https://www.facebook.com/Unhaseciliospenelope/"><i class="fa-brands fa-facebook"></i>Facebook</a></li>
-                        <li><a href="https://wa.me/message/EQXKWAMWRT6FB1"><i class="fa-brands fa-whatsapp"></i></i>Whatsapp</a></li>
-                        <li><a href="https://www.instagram.com/espaco.penelope/"><i class="fa-brands fa-instagram"></i>Instagram</a></li>
-                        <li> <i class="fa fa-envelope" aria-hidden="true"></i><a href="#">penelopeunhasecilios@gmail.com</a></li>
-                     </ul>
-                  </div>
-                </div>
-            </div>
-            <div class="copyright">
-               <div class="container">
-                  <div class="row">
-                     <div class="col-md-10 offset-md-1">
-                        <p>© 2023 All Rights Reserved. Design by  <a href="https://www.instagram.com/martins_douglas23/">Douglas Martins</a> Distributed By <a href="https://www.instagram.com/dsm.midia/">DSM Mídia</a></p>
-                     </div>
+                  <div class="col-md-10 offset-md-1">
+                     <p>© 2023 All Rights Reserved. Design by  <a href="https://www.instagram.com/martins_douglas23/">Douglas Martins</a> Distributed By <a href="https://www.instagram.com/dsm.midia/">DSM Mídia</a></p>
                   </div>
                </div>
             </div>
          </div>
-      </footer>
-      <!-- end footer -->
-      <!-- Javascript files-->
-      <script src="js/jquery.min.js"></script>
-      <script src="js/bootstrap.bundle.min.js"></script>
-      <script src="js/jquery-3.0.0.min.js"></script>
-      <!-- sidebar -->
-      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
-      <script src="js/custom.js"></script>
-      <script src="https://kit.fontawesome.com/0abe165888.js" crossorigin="anonymous"></script>
-   </body>
+      </div>
+   </footer>
+   <!-- end footer -->
+   <!-- Javascript files-->
+   <script src="js/jquery.min.js"></script>
+   <script src="js/bootstrap.bundle.min.js"></script>
+   <script src="js/jquery-3.1.1.min.js"></script>
+   <!-- sidebar -->
+   <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+   <script src="js/custom.js"></script>
+   <script src="https://kit.fontawesome.com/0abe165888.js" crossorigin="anonymous"></script>
+
+   
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ 
+</body>
 </html>
 

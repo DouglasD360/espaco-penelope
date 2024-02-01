@@ -728,6 +728,65 @@ ul.social_icon li a:hover {
 
 /** servicos section **/
 
+
+.bg-01{
+
+     background-image: url(../images/bg-01.jpg);
+     
+     position: relative;
+	height: 100%;
+	
+	background-repeat:no-repeat;
+	background-size: cover; /*-- CODIGO PARA COBRIR IMG NA TELA CASO O TAMANHO SEJA MENOR QUE A PAGINA--*/
+	background-position: center;
+	background-attachment: fixed; /*-- CODIGO PARA FIXAR IMG NA TELA --*/
+
+     
+}
+
+.bg-02{
+
+     background-image: url(../images/bg-02.jpg);
+     
+     position: relative;
+	height: 100%;
+	
+	background-repeat:no-repeat;
+	background-size: cover; /*-- CODIGO PARA COBRIR IMG NA TELA CASO O TAMANHO SEJA MENOR QUE A PAGINA--*/
+	background-position: center;
+	background-attachment: fixed; /*-- CODIGO PARA FIXAR IMG NA TELA --*/
+     
+     
+}
+
+.bg-03{
+
+     background-image: url(../images/bg-03.jpg);
+     
+     position: relative;
+	height: 100%;
+	
+	background-repeat:no-repeat;
+	background-size: cover; /*-- CODIGO PARA COBRIR IMG NA TELA CASO O TAMANHO SEJA MENOR QUE A PAGINA--*/
+	background-position: center;
+	background-attachment: fixed; /*-- CODIGO PARA FIXAR IMG NA TELA --*/
+     
+     
+}
+
+.bg-04{
+
+     background-image: url(../images/bg-cinza.jpg);
+     position: relative;
+	height: 100%;
+	background-repeat:no-repeat;
+	background-size: cover; /*-- CODIGO PARA COBRIR IMG NA TELA CASO O TAMANHO SEJA MENOR QUE A PAGINA--*/
+	background-position: center;
+	background-attachment: fixed; /*-- CODIGO PARA FIXAR IMG NA TELA --*/
+     
+     
+}
+
 .servicos_box{
 
      padding-top: 15px;
@@ -735,7 +794,10 @@ ul.social_icon li a:hover {
      text-align: justify;
      align-items: center;
      
+     
+     
 }
+
 
 .servicos_box h1{
 
@@ -755,10 +817,8 @@ ul.social_icon li a:hover {
      line-height: 18px;
      padding-bottom: 12px;
      text-transform:uppercase;
-     font-weight:bolder;
-     
+     font-weight:bolder; 
     
-   
 }
 
 .servicos_box img{
@@ -775,6 +835,9 @@ ul.social_icon li a:hover {
 .servicos_box p{
 
      padding-bottom: 15px;
+     font-size: 24px;
+     color: #000;
+     
 }
 
 /** final servicos section **/
@@ -845,10 +908,11 @@ ul.social_icon li a:hover {
 
 .video{
 
-     background: #ffffff;
+     
      padding-top: 50px;
      position: relative;
      padding-bottom: 170px;
+     
 
 
 }
@@ -961,7 +1025,7 @@ ul.social_icon li a:hover {
 }
 
 .experts .experts_box .meet p {
-     font-size: 17px;
+     font-size: 19px;
      line-height: 28px;
 }
 

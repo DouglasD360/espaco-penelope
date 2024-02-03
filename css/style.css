@@ -1146,11 +1146,13 @@ ul.conta {
      margin-bottom: 55px;
 }
 
-ul.conta li {
+
+
+ul.conta ul {
      color: #fff;
      text-align: left;
      padding-bottom: 20px;
-     font-size: 17px;
+     font-size: 20px;
      display: inline-block;
      padding-right: 70px;
 }
@@ -1160,9 +1162,10 @@ ul.conta li:last-child {
 }
 
 ul.conta li i {
-     padding-right: 15px;
+     
      text-align: center;
      font-size: 30px;
+     padding-right: 15px;
 }
 
 ul.conta li a {
